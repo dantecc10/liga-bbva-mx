@@ -1,0 +1,30 @@
+nav#mainNav, nav {
+  background-color: var(--bs-black) !important;
+}
+
+.mc-blanco {
+  color: white !important;
+}
+
+.mc-negro {
+  color: black !important;
+}
+
+.mc-bg-negro {
+  background-color: black !important;
+}
+
+.mc-bg-blanco {
+  background-color: white !important;
+}
+
+.mc-bg-negro.mc-blanco:hover {
+  color: black !important;
+  background-color: white !important;
+}
+
+.mc-bg-blanco.mc-negro:hover {
+  color: white !important;
+  background-color: black !important;
+}
+
